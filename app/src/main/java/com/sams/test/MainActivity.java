@@ -111,6 +111,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Displaying toolbar icon
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+        btnChoose.setOnClickListener(this);
+        btnSave.setOnClickListener(this);
     }
 
 
